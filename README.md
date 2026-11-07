@@ -1,11 +1,3 @@
-# Endloops - Website Design & Build
-
-A modern, responsive landing page and product showcase built for the **Full-Stack Engineering Intern (UI/UX & Product Design)** assignment at **Endloops**.
-
----
-
-## 📌 Submission Note (200–300 Words)
-
 ### 1. What I Built & Why
 I designed and built a fast, responsive website for Endloops. The goal was to clearly explain who Endloops is (born from Alkazim audit firm in Dubai) and what they do for finance professionals. I organized their products into two clear categories:
 - **End-to-End Solutions:** Full software suites (like Escrow Audit and Statutory Financial Audit).
