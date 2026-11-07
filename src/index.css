@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    @apply text-slate-900 bg-white;
+  }
+}
+
+@layer utilities {
+  .gradient-text-teal {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-emerald-500;
+  }
+  
+  .gradient-text-navy {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-navy via-slate-800 to-brand-navy-light;
+  }
+
+  .gradient-text-purple {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600;
+  }
+}
+
