@@ -18,8 +18,6 @@ My most important choice was building an **Interactive Auditor Sandbox** instead
 - **Backend:** Node.js, Express (handles demo requests and verification checks).
 - **AI Tools:** Used AI as an assistant to research GCC audit terms (like escrow rules and 3-way matching) and speed up component templates. All UI styling, structure, and design choices were custom made.
 
-### 5. Hours Spent
-Around **4.5 hours** in total (research, design, coding, testing, and writing).
 
 ---
 
