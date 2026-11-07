@@ -1,79 +1,65 @@
-# Endloops | Autonomous Financial Automation Website
+# Endloops - Website Design & Build
 
-> Designed and built for the **Full-Stack Engineering Intern (UI/UX and Product Design)** assignment at **Endloops** (incubated at Alkazim, Dubai).
+A modern, responsive landing page and product showcase built for the **Full-Stack Engineering Intern (UI/UX & Product Design)** assignment at **Endloops**.
 
 ---
 
-## 📋 The 200–300 Word Submission Note
+## 📌 Submission Note (200–300 Words)
 
-### 1. What We Decided to Build and Why
-We built a responsive, enterprise-grade web application for Endloops that speaks directly to the exacting standards of financial professionals—accountants, auditors, and property finance teams across the GCC and internationally. We gave equal weight to clarity and institutional trust, explicitly delineating Endloops' two core offerings: **End-to-End Solutions** (full-cycle autonomous services) and **Standalone Tools** (modular micro-utilities), anchored by the philosophy: *"The software prepares, the professional decides."*
+### 1. What I Built & Why
+I designed and built a fast, responsive website for Endloops. The goal was to clearly explain who Endloops is (born from Alkazim audit firm in Dubai) and what they do for finance professionals. I organized their products into two clear categories:
+- **End-to-End Solutions:** Full software suites (like Escrow Audit and Statutory Financial Audit).
+- **Standalone Tools:** Focused single tools (like PO Extraction and Vouching Automation).
+
+The main idea highlighted across the site is: *"The software prepares the work, and the professional reviews and decides."*
 
 ### 2. Most Important Design Decision
-Rather than relying on generic marketing copy, we engineered the live **Interactive Auditor Sandbox**. Financial professionals are inherently cautious about automation because error carry legal and statutory liability. Giving visitors an interactive simulation—showing document OCR, rule checks, anomaly flagging, and a mandatory human sign-off checkpoint—instills immediate fiduciary trust and proves how Endloops preserves auditor accountability.
+My most important choice was building an **Interactive Auditor Sandbox** instead of just writing plain text. Finance and audit teams need to trust their software. The interactive demo lets visitors test a real workflow: uploading files, checking rules, spotting an error, and clicking an "Auditor Sign-off" button with human approval.
 
-### 3. What We Would Improve With More Time
-With additional time, we would implement:
-1. **Interactive ROI & Time-Saved Calculator**: Allowing prospective firms to input monthly document volume and hourly billing rates to visualize annual savings.
-2. **Client-side PDF Drag-and-Drop Parser**: Enabling visitors to drop sanitized sample invoices to see live OCR table extraction.
-3. **Native Arabic Localization (RTL)**: Supporting UAE Federal Tax Authority (FTA) and Saudi ZATCA compliance terminology.
+### 3. What I Would Improve With More Time
+- Add an interactive **ROI / Hours-Saved Calculator** for finance teams.
+- Allow users to drag and drop real sample PDF invoices to see live OCR data extraction.
+- Add **Arabic language support (RTL)** for GCC clients.
 
-### 4. Tools Used (Including AI)
-- **Tech Stack**: React 18, TypeScript, Tailwind CSS, Lucide Icons, Vite.
-- **AI Tooling**: Transparently utilized AI to assist in researching industry-accurate GCC audit workflows (such as Dubai RERA escrow milestones and statutory vouching sampling) and accelerating initial component scaffolding. Layout hierarchy, design system, and verification logic were custom-crafted.
+### 4. Tools Used
+- **Frontend:** React, TypeScript, Tailwind CSS, Lucide Icons, Vite.
+- **Backend:** Node.js, Express (handles demo requests and verification checks).
+- **AI Tools:** Used AI as an assistant to research GCC audit terms (like escrow rules and 3-way matching) and speed up component templates. All UI styling, structure, and design choices were custom made.
 
 ### 5. Hours Spent
-Approximately **4.5 hours** across information architecture, component design, responsive styling, interactive sandbox logic, and accessibility auditing.
+Around **4.5 hours** in total (research, design, coding, testing, and writing).
 
 ---
 
-## 🚀 Key Features Built
-
-- **Exact Brand Alignment**: Styled strictly around the provided Endloops identity: deep navy text (`#0B132B`), emerald teal logo anchor (`#00A884`), with royal blue and purple accents.
-- **Two-Tier Architecture Showcase**:
-  - **5 End-to-End Solutions**: Escrow Audit, Statutory Financial Audit, Budget Review, Interim Audit, Property Management Budget Prep.
-  - **6 Standalone Modular Tools**: Purchase-Order Extraction, Vouching Automation, Expense Working, Financial Report Review, Tender Verification, Reconciliation Engine.
-- **Live Interactive Auditor Sandbox**:
-  - 3 realistic simulation scenarios (Escrow audit, 3-way vouching, bank reconciliation).
-  - Multi-step pipeline animation (Ingestion $\rightarrow$ Field OCR $\rightarrow$ Rule Engine $\rightarrow$ Anomaly Flagging $\rightarrow$ Human Decision).
-  - Working auditor sign-off desk with hash generation.
-- **Interactive Modals**:
-  - Product detail modals for all 11 offerings.
-  - Full demo request modal with field validation and appointment confirmation.
-  - Candidate design note modal embedded directly in the UI for reviewers.
-- **Responsive & Accessible**: Mobile hamburger drawer, semantic HTML, and high-contrast WCAG-compliant color ratios.
+## ✨ Key Features
+- **Official Brand Colors:** Built with dark navy, teal/green, blue, and purple.
+- **Two Product Sections:** Easy tabs to switch between full solutions and standalone tools.
+- **Interactive Sandbox:** Live simulation showing document checks and auditor approval.
+- **Working Demo Form:** Interactive modal with form validation to request a demo.
+- **Mobile Friendly:** Fully responsive on phones, tablets, and desktops.
 
 ---
 
-## 🛠️ Local Development & Build
+## 🚀 How to Run the Project Locally
 
+### 1. Install dependencies:
 ```bash
-# 1. Install dependencies
 npm install
+```
 
-# 2. Run local development server
+### 2. Start the development server:
+```bash
 npm run dev
+```
+Open `http://localhost:5173` in your browser.
 
-# 3. Build for production (TypeScript compile + Vite build)
+### 3. Build for production:
+```bash
 npm run build
-
-# 4. Preview production build locally
-npm run preview
 ```
 
 ---
 
-## 📦 Deployment Instructions
-
-This project is pre-configured for instant zero-configuration deployment to **Vercel** or **Netlify**:
-
-### Deploy to Vercel
-```bash
-npx vercel
-```
-
-### Deploy to Netlify
-```bash
-npx netlify deploy --prod --dir=dist
-```
-
+## 🌐 Live Link
+- **Live Demo:** [Add your Vercel/Netlify link here]
+- **GitHub Repo:** https://github.com/Akshitakumari156/Web_endloops
